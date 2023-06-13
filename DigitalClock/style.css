@@ -1,0 +1,28 @@
+body {
+  background-color: #110;
+}
+
+#container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+}
+
+.heading {
+  color: #ffffff;
+  font: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.time {
+  color: #ffffff;
+  background-color: black;
+  width: 150px;
+  font-size: 100px;
+  margin: 0 10px;
+  text-align: center;
+}
