@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Loan Calculator</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Loan Calculator</h1>
+      <div id="subContainer">
+        <div class="block">
+          <p class="label">Laon Amount(₹)</p>
+          <input type="text" class="inputData" id="amount" />
+        </div>
+        <div class="block">
+          <p class="label">Intrest Rate(%)</p>
+          <input type="text" class="inputData" id="interest" />
+        </div>
+        <div class="block">
+          <p class="label">Tenure(in months)</p>
+          <input type="text" class="inputData" id="tenure" />
+        </div>
+      </div>
+      <button id="btn">Find EMI</button>
+      <h2 id="emi"></h2>
+      <h2 id="totalPayment"></h2>
+      <h2 id="totalInterest"></h2>
+    </div>
+
+    <footer>
+      <p>Made with ❤️ by Rishi Sharma</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
